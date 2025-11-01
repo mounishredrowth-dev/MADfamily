@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>MAD FAMILY — Mo & Dia</title>
   <meta name="description" content="MAD FAMILY — Mo & Dia. Just living and thriving." />
-  <link rel="icon" href="assets/favicon_round.png?v=5" type="image/png">
+  <link rel="icon" href="assets/favicon_round.png?v=6" type="image/png">
   <meta name="color-scheme" content="light dark" />
   <style>
     :root {
@@ -20,6 +20,7 @@
       --white: #ffffff;
       --grad: linear-gradient(135deg, var(--accent), var(--accent-2));
     }
+
     @media (prefers-color-scheme: light) {
       :root {
         --bg: #ffffff;
@@ -33,6 +34,7 @@
         --white: #ffffff;
       }
     }
+
     * { box-sizing: border-box; }
     html, body {
       margin: 0;
@@ -44,6 +46,7 @@
     }
     a { color: var(--accent); text-decoration: none; }
     img { max-width: 100%; display: block; }
+
     .container {
       max-width: 1200px;
       margin: auto;
@@ -54,10 +57,11 @@
       position: sticky;
       top: 0;
       background: color-mix(in srgb, var(--bg) 85%, transparent);
-      backdrop-filter: blur(8px);
+      backdrop-filter: blur(10px);
       z-index: 30;
       border-bottom: 1px solid var(--border);
     }
+
     nav {
       display: flex;
       align-items: center;
@@ -65,23 +69,25 @@
       gap: 1.5rem;
       flex-wrap: wrap;
     }
+
     .brand {
       display: flex;
       align-items: center;
-      gap: 0.5rem;
       justify-content: center;
+      gap: 0.6rem;
       margin-bottom: .8rem;
     }
+
     .brand h1 {
-      font-size: 1.3rem;
+      font-size: 1.4rem;
       letter-spacing: 1px;
       font-weight: 700;
     }
+
     .logo-img {
-      width: 40px;
-      height: 40px;
+      width: 42px;
+      height: 42px;
       border-radius: 50%;
-      margin-right: 8px;
       border: 2px solid var(--accent);
       box-shadow: 0 0 6px rgba(255,107,129,0.5);
     }
@@ -93,6 +99,7 @@
       padding: 3rem 1rem;
       gap: 2rem;
     }
+
     @media (max-width: 800px) {
       .hero { grid-template-columns: 1fr; text-align: center; }
     }
@@ -159,7 +166,8 @@
       </div>
     </div>
     <div>
-      <img src="assets/blue_outfit_main.jpg" alt="Mo and Dia" class="hero-img">
+      <!-- Blue suit and blue outfit main photo -->
+      <img src="assets/blue_dress_event.jpg" alt="Mo and Dia" class="hero-img">
     </div>
   </section>
 
